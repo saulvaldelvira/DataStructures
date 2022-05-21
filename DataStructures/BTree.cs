@@ -12,7 +12,7 @@ namespace DataStructures {
             _raiz = new BNode<T>(grado);
         }
 
-        public bool Exists(T key) {
+        /*public bool Exists(T key) {
             
         }
 
@@ -27,7 +27,7 @@ namespace DataStructures {
 
                 }
             }
-        }
+        }*/
     }
 
     internal class BNode<T> {
