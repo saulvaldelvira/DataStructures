@@ -9,7 +9,7 @@ namespace Test {
         }
 
         [Test]
-        public void Test1() {
+        public void Orders() {
             Assert.AreEqual("", tree.PreOrder());
             Assert.AreEqual("", tree.InOrder());
             Assert.AreEqual("", tree.PostOrder());
